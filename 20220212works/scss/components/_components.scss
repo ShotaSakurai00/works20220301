@@ -1,0 +1,10 @@
+
+
+$pc:600;
+$smart:599px;
+
+@mixin sp(){
+    @media screen and (max-width:$smart){
+        @content;
+    }
+}
